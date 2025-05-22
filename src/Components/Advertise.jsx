@@ -59,7 +59,7 @@ export default function Advertise() {
             </h2>
             <p className="text-gray-700 mb-6">
               Tap the button below to chat with us on WhatsApp and receive your
-              5% - 50% discount code!
+              5% - 50% discount code on Retail and WholeSale Medicines!
             </p>
 
             <a

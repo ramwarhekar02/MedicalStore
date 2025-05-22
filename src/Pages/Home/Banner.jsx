@@ -136,7 +136,7 @@ export default function HealthcareHeroBanner() {
         className="absolute top-6 left-1/2 w-full md:w-auto transform mt-17 -translate-x-1/2 z-50"
       >
         <div className="px-4 py-1 mx-5 text-sm sm:px-6 sm:py-2 bg-gradient-to-r from-pink-600 via-red-500 to-yellow-400 sm:text-lg md:text-xl font-bold rounded-full shadow-2xl animate-pulse border-4 border-white/40">
-          🎉 Flat <span className="text-lg sm:text-2xl md:text-3xl font-extrabold">5% - 50% OFF</span> on Selected Medicines!
+          🎉 Flat <span className="text-lg sm:text-2xl md:text-3xl font-extrabold">5% - 50% OFF</span> on Retail and Wholesale on Selected Medicines!
         </div>
       </motion.div>
 

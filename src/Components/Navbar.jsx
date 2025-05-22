@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             to="/"
-            className="text-xl sm:text-2xl font-extrabold uppercase bg-gradient-to-r from-indigo-500 via-cyan-400 to-purple-500 bg-clip-text text-transparent tracking-wider hover:scale-105 transition-transform whitespace-nowrap overflow-hidden text-ellipsis"
+            className="text-lg sm:text-2xl font-extrabold uppercase bg-gradient-to-r from-indigo-500 via-cyan-400 to-purple-500 bg-clip-text text-transparent tracking-wider hover:scale-105 transition-transform whitespace-nowrap overflow-hidden text-ellipsis"
           >
             Dubey Medical Store
           </Link>
@@ -102,10 +102,10 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Address Desktop */}
-        <div className="hidden md:flex items-center text-xs text-white mt-2 gap-1 font-medium">
+        {/* Address: visible always below logo, even in mobile */}
+        <div className="flex items-center text-xs sm:text-sm text-white mt-2 gap-1 font-medium">
           <MapPin className="w-4 h-4 text-red-600" />
-          Shahpur Urwa Bazar, Gorakhpur, UP – 273407
+          Shahpur Urwa Bazar, Gorakhpur, UP - 273407
         </div>
       </div>
 
@@ -135,12 +135,6 @@ export default function Navbar() {
                 {link.name}
               </NavLink>
             ))}
-
-            {/* Address Mobile */}
-            <div className="flex flex-wrap items-center text-xs text-white mt-2 gap-1">
-              <MapPin className="w-4 h-4 text-white" />
-              Shahpur Urwa Bazar, Gorakhpur, UP – 273407
-            </div>
           </motion.div>
         )}
       </AnimatePresence>

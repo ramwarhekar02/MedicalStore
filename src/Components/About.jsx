@@ -43,9 +43,9 @@ export default function AboutSection() {
         <motion.div
           variants={sectionVariants}
           custom={0}
-          className="text-5xl font-extrabold text-center text-blue-700 mb-12 select-none"
+          className="text-5xl bg-gradient-to-r from-indigo-500 via-cyan-400 to-purple-500 rounded-md py-15 font-extrabold text-center text-blue-700 mb-12 select-none"
         >
-          <h1 className="text-3xl md:text-4xl font-bold text-center text-black uppercase">
+          <h1 className="text-3xl md:text-4xl font-bold text-center text-white uppercase">
             Dubey Medical Stores
           </h1>
           <div className="relative flex justify-center mt-2">

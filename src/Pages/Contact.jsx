@@ -11,13 +11,13 @@ export default function ContactPage() {
         transition={{ duration: 0.7 }}
         className="max-w-6xl mx-auto"
       >
-        <h1 className="text-3xl md:text-4xl font-bold text-center text-black uppercase">
+        <h1 className="text-3xl md:text-4xl font-bold text-center text-white bg-gradient-to-r from-indigo-500 via-cyan-400 to-purple-500 rounded-md py-15 uppercase">
           Contact Us
+        <div className="relative flex justify-center mt-2">
+          <div className="h-1 w-36 rounded-full bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 animate-pulse" />
+        </div>
         </h1>
       {/* Animated Line */}
-      <div className="relative flex justify-center mt-2">
-        <div className="h-1 w-36 rounded-full bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 animate-pulse" />
-      </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 my-10">
           {/* Contact Info Section */}

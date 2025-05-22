@@ -16,19 +16,19 @@ export default function PopularProducts() {
   return (
     <section className="bg-white max-w-[1300px] mt-10 font-[Poppins] mx-auto py-16 px-6 md:px-20 text-center shadow">
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-black uppercase">
+      <h2 className="text-3xl md:text-4xl font-bold text-white uppercase bg-gradient-to-r from-indigo-500 via-cyan-400 to-purple-500 rounded-md py-15">
         Our Most <span className="text-indigo-600">Popular</span> Products
-      </h2>
-      {/* Animated Line */}
       <div className="relative flex justify-center mt-2">
         <div className="h-1 w-36 rounded-full bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 animate-pulse" />
       </div>
+      </h2>
+      {/* Animated Line */}
       <p className="text-gray-500 mt-3">
         Join the crowd—try our most-loved products!
       </p>
 
       {/* Products Grid */}
-<div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-10 items-start max-w-7xl mx-auto px-4">
+      <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-10 items-start max-w-7xl mx-auto px-4">
       {[ // Product data can be extracted, here inline for simplicity
         {
           id: 1,
